@@ -1,3 +1,5 @@
+" Created: 0xlay
+
 set nocompatible
 filetype off
 
@@ -20,7 +22,7 @@ Plugin 'vim-airline/vim-airline-themes'
 
 Plugin 'preservim/nerdtree'
 
-Plugin 'sheerun/vim-polyglot'
+Plugin 'ycm-core/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on
