@@ -1,0 +1,40 @@
+#
+# Config options: https://alacritty.org/config-alacritty.html
+#
+
+import = [
+  #"~/.config/alacritty/themes/catppuccin-latte.toml"
+  #"~/.config/alacritty/themes/catppuccin-frappe.toml"
+  #"~/.config/alacritty/themes/catppuccin-mocha.toml"
+  
+  #"~/.config/alacritty/themes/catppuccin-macchiato.toml"
+  "~/.config/alacritty/themes/dracula.toml"
+  #"~/.config/alacritty/themes/doom_one.toml"
+]
+[env]
+TERM = "xterm-256color"
+
+[window]
+dimensions = { columns = 140, lines = 40 }
+
+[scrolling]
+history = 100000
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font Mono"
+style = "Bold Italic"
