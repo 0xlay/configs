@@ -4,7 +4,7 @@ system_cache_folder="/var/cache/*"
 user_cache_folder="~/.cache/*"
 system_log_folder="/var/log/*"
 temp_file_folder="/tmp/*"
-trash_folder="~/.local/share/Trash/"
+trash_folder="~/.local/share/Trash/*"
 
 sudo rm -rf $system_cache_folder
 echo "Clean system cache... Done"
